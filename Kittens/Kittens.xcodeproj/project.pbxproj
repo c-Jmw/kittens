@@ -13,6 +13,7 @@
 		C025B1911B1D9F6B001DE765 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C025B1901B1D9F6B001DE765 /* Images.xcassets */; };
 		C025B1941B1D9F6B001DE765 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C025B1921B1D9F6B001DE765 /* LaunchScreen.xib */; };
 		C025B1A01B1D9F6B001DE765 /* KittensTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025B19F1B1D9F6B001DE765 /* KittensTests.swift */; };
+		C025B1AB1B1DA50F001DE765 /* KittensListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C025B1AA1B1DA50F001DE765 /* KittensListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		C025B1991B1D9F6B001DE765 /* KittensTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KittensTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C025B19E1B1D9F6B001DE765 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C025B19F1B1D9F6B001DE765 /* KittensTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KittensTests.swift; sourceTree = "<group>"; };
+		C025B1AA1B1DA50F001DE765 /* KittensListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KittensListViewController.swift; path = Kittens/KittensListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		C025B17B1B1D9F6B001DE765 = {
 			isa = PBXGroup;
 			children = (
+				C025B1A91B1DA4E7001DE765 /* ViewControllers */,
 				C025B1861B1D9F6B001DE765 /* Kittens */,
 				C025B19C1B1D9F6B001DE765 /* KittensTests */,
 				C025B1851B1D9F6B001DE765 /* Products */,
@@ -110,6 +113,14 @@
 				C025B19E1B1D9F6B001DE765 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C025B1A91B1DA4E7001DE765 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				C025B1AA1B1DA50F001DE765 /* KittensListViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			files = (
 				C025B18C1B1D9F6B001DE765 /* ViewController.swift in Sources */,
 				C025B18A1B1D9F6B001DE765 /* AppDelegate.swift in Sources */,
+				C025B1AB1B1DA50F001DE765 /* KittensListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
